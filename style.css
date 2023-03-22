@@ -212,8 +212,16 @@ a.nav-link {
 .contact_now {
   background-color: #f3f3f3;
   padding: 40px 89px;
-  border-top: 18px solid #015a06;
-  border-width: 90%;
+  position: relative;
+}
+.contact_now:after {
+  position: absolute;
+  content: "";
+  background: #015a06;
+  top: -19px;
+  right: 0;
+  width: 97%;
+  height: 18px;
 }
 .contact_now h2 {
   font-family: "Roboto Slab", serif;
@@ -280,8 +288,8 @@ textarea {
   color: #000000;
   margin-right: 34px;
 }
-@media screen and (max-width:525px) {
-  .contact_now{
+@media screen and (max-width: 525px) {
+  .contact_now {
     padding: 20px;
   }
 }
