@@ -280,3 +280,8 @@ textarea {
   color: #000000;
   margin-right: 34px;
 }
+@media screen and (max-width:525px) {
+  .contact_now{
+    padding: 20px;
+  }
+}
