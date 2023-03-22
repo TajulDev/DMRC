@@ -81,6 +81,7 @@ a.nav-link {
   padding: 43.5px;
   max-height: 650px;
   max-width: 650px;
+  margin: auto;
 }
 .round_box {
   background-color: #ffffff;
@@ -109,16 +110,16 @@ a.nav-link {
 .round_box.first {
   position: absolute;
   top: 0px;
-  left: 36%;
+  left: 43%;
 }
 .round_box.second {
   position: absolute;
   bottom: 0;
-  right: 45%;
+  right: 40%;
 }
 .round_box.third {
   position: absolute;
-  right: 8%;
+  right: 0;
   top: 36%;
 }
 .dmrc {
