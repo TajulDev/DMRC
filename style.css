@@ -299,11 +299,17 @@ textarea {
     font-size: 18px;
     margin-bottom: 30px;
   }
+  .dr{
+    padding: 50px 20px;
+  }
   .dr #name {
     font-size: 30px;
   }
   .dr p {
     font-size: 18px;
+  }
+  .contact{
+    background-image: none;
   }
 
   .contact_now {
