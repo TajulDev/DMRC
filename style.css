@@ -32,6 +32,9 @@ a.nav-link {
   line-height: 23px;
   margin-right: 34px;
 }
+.navbar-expand-lg .navbar-nav {
+  align-items: center;
+}
 #connect {
   color: #015a06;
   border: 1px solid #000000;
@@ -169,6 +172,29 @@ a.nav-link {
   font-size: 20px;
   line-height: 150%;
   color: #000000;
+}
+.dr {
+  padding-top: 168px;
+  padding-bottom: 140px;
+}
+.dr:first-child{
+  margin-bottom: 51px;
+}
+.dr #name {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: #015a06;
+}
+.dr p {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #373737;
 }
 
 .footer {
