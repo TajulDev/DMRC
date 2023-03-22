@@ -289,6 +289,23 @@ textarea {
   margin-right: 34px;
 }
 @media screen and (max-width: 525px) {
+  .navbar-brand {
+    width: 70%;
+  }
+  .banner h2 {
+    font-size: 35px;
+  }
+  .dmrc .content {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .dr #name {
+    font-size: 30px;
+  }
+  .dr p {
+    font-size: 18px;
+  }
+
   .contact_now {
     padding: 20px;
   }
