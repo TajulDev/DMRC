@@ -118,3 +118,25 @@ a.nav-link {
   right: 8%;
   top: 36%;
 }
+
+.footer {
+  background-image: url("assets/footer_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 21px;
+  padding-bottom: 100px;
+}
+.footer img {
+  margin-bottom: 12px;
+}
+.footer a {
+  font-family: "Outfit", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-right: 34px;
+}
