@@ -177,9 +177,7 @@ a.nav-link {
   padding-top: 168px;
   padding-bottom: 140px;
 }
-.dr:first-child{
-  margin-bottom: 51px;
-}
+
 .dr #name {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -187,6 +185,13 @@ a.nav-link {
   font-size: 48px;
   line-height: 150%;
   color: #015a06;
+}
+.dr .company {
+  color: #015a06;
+  font-weight: 600;
+}
+.dr .content {
+  color: rgba(67, 67, 67, 0.6);
 }
 .dr p {
   font-family: "Roboto Slab", serif;
@@ -196,6 +201,7 @@ a.nav-link {
   line-height: 150%;
   color: #373737;
 }
+
 
 .footer {
   background-image: url("assets/footer_bg.png");
