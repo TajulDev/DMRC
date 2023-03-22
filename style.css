@@ -118,6 +118,58 @@ a.nav-link {
   right: 8%;
   top: 36%;
 }
+.dmrc {
+  background-color: #f6f6f6;
+  padding-top: 118px;
+  padding-bottom: 106px;
+}
+.dmrc .logo {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: #015a06;
+}
+.dmrc .content {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 150%;
+  color: #333333;
+}
+.dmrc .icon_div {
+  background-color: #ffffff;
+  border-radius: 12px;
+  /* padding: 33px 50px; */
+}
+.dmrc .icon_div.first {
+  height: 198px;
+  width: 220px;
+}
+.dmrc .icon_div.last {
+  height: 198px;
+  width: 292px;
+}
+.d-flex.flex-wrap.justify-content-center {
+  gap: 9px;
+}
+.dmrc .icon {
+  background-color: #f6f6f6;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin-bottom: 13px;
+}
+.icon_div p {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
 
 .footer {
   background-image: url("assets/footer_bg.png");
