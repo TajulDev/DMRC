@@ -295,9 +295,16 @@ textarea {
   .banner h2 {
     font-size: 35px;
   }
+  .dmrc{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   .dmrc .content {
     font-size: 18px;
     margin-bottom: 30px;
+  }
+  .d-flex.flex-wrap.justify-content-center{
+    gap: 25px;
   }
   .dr{
     padding: 50px 20px;
@@ -310,6 +317,9 @@ textarea {
   }
   .contact{
     background-image: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
   .contact_now {
