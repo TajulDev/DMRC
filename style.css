@@ -64,6 +64,9 @@ a.nav-link {
   color: #333333;
   margin-bottom: 30px;
 }
+.round_box p {
+  font-size: 16px !important;
+}
 .banner button {
   font-family: "Outfit", sans-serif;
   background-color: #000000;
@@ -292,22 +295,38 @@ textarea {
   .navbar-brand {
     width: 70%;
   }
-  .banner h2 {
-    font-size: 35px;
+  .banner {
+    padding-top: 0;
   }
-  .dmrc{
-    padding-top: 30px;
+  .banner #hero {
+    margin-bottom: 30px;
+  }
+  .banner h2 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  .banner p {
+    font-size: 22px;
+  }
+  .banner_bg{
+    padding-bottom: 65px;
+  }
+  .banner button {
+    padding: 10px 35px;
+  }
+  .dmrc {
+    padding-top: 25px;
     padding-bottom: 30px;
   }
   .dmrc .content {
     font-size: 18px;
     margin-bottom: 30px;
   }
-  .d-flex.flex-wrap.justify-content-center{
+  .d-flex.flex-wrap.justify-content-center {
     gap: 25px;
   }
-  .dr{
-    padding: 50px 20px;
+  .dr {
+    padding: 50px 20px 0px;
   }
   .dr #name {
     font-size: 30px;
@@ -315,7 +334,7 @@ textarea {
   .dr p {
     font-size: 18px;
   }
-  .contact{
+  .contact {
     background-image: none;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -325,4 +344,10 @@ textarea {
   .contact_now {
     padding: 20px;
   }
+  .contact_now h2{
+    font-size: 30px;
+  }
+  .footer {
+    padding-bottom: 60px;
+}
 }
