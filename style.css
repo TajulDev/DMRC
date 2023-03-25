@@ -67,7 +67,8 @@ a.nav-link {
 .round_box p {
   font-size: 16px !important;
 }
-.banner button {
+.banner a {
+  text-decoration: none;
   font-family: "Outfit", sans-serif;
   background-color: #000000;
   padding: 18px 95px;
@@ -129,6 +130,7 @@ a.nav-link {
   background-color: #f6f6f6;
   padding-top: 118px;
   padding-bottom: 106px;
+  margin-bottom: 140px;
 }
 .dmrc .logo {
   font-family: "Roboto Slab", serif;
@@ -177,8 +179,15 @@ a.nav-link {
   line-height: 150%;
   color: #000000;
 }
+#team1 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-size: 48px;
+  color: #015a06;
+  font-weight: 700;
+}
 .dr {
-  padding-top: 168px;
+  /* padding-top: 168px; */
   padding-bottom: 140px;
 }
 
@@ -311,12 +320,13 @@ textarea {
   .banner_bg{
     padding-bottom: 65px;
   }
-  .banner button {
+  .banner a {
     padding: 10px 35px;
   }
   .dmrc {
     padding-top: 25px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
   }
   .dmrc .content {
     font-size: 18px;
@@ -324,6 +334,9 @@ textarea {
   }
   .d-flex.flex-wrap.justify-content-center {
     gap: 25px;
+  }
+  #team1{
+    font-size: 30px;
   }
   .dr {
     padding: 50px 20px 0px;
