@@ -147,6 +147,7 @@ a.nav-link {
   font-size: 26px;
   line-height: 150%;
   color: #333333;
+  text-align: justify;
 }
 .dmrc .icon_div {
   background-color: #ffffff;
@@ -213,6 +214,7 @@ a.nav-link {
   font-size: 24px;
   line-height: 150%;
   color: #373737;
+  text-align: justify;
 }
 .contact {
   background-image: url("assets/contact.png");
