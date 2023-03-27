@@ -64,6 +64,17 @@ a.nav-link {
   color: #333333;
   margin-bottom: 30px;
 }
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.element {
+  animation-name: fade-in-out;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .round_box p {
   font-size: 16px !important;
 }
@@ -111,7 +122,7 @@ a.nav-link {
   line-height: 160%;
   color: #000000;
 }
-.round_box.first {
+/* .round_box.first {
   position: absolute;
   top: 0px;
   left: 43%;
@@ -125,7 +136,7 @@ a.nav-link {
   position: absolute;
   right: 0;
   top: 36%;
-}
+} */
 .dmrc {
   background-color: #f6f6f6;
   padding-top: 118px;
