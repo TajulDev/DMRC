@@ -13,6 +13,7 @@ p {
 .container {
   max-width: 1420px;
 }
+
 .banner_bg {
   background-image: url("assets/banner-bg.png");
   background-position: center;
@@ -20,6 +21,7 @@ p {
   background-size: cover;
   padding-bottom: 143px;
 }
+
 header {
   padding-bottom: 50px;
 }
@@ -32,9 +34,11 @@ a.nav-link {
   line-height: 23px;
   margin-right: 34px;
 }
+
 .navbar-expand-lg .navbar-nav {
   align-items: center;
 }
+
 #connect {
   color: #015a06;
   border: 1px solid #000000;
@@ -42,10 +46,12 @@ a.nav-link {
   padding: 15px 80px;
   margin-right: 0 !important;
 }
+
 .banner {
   position: relative;
   padding-top: 54px;
 }
+
 .banner h2 {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -55,6 +61,7 @@ a.nav-link {
   color: #015a06;
   margin-bottom: 14px;
 }
+
 .banner p {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -64,17 +71,22 @@ a.nav-link {
   color: #333333;
   margin-bottom: 30px;
 }
-@keyframes fade-in-out {
 
-  0% { opacity: 1; }
-  100% { opacity: 0; }
+@keyframes fade-in-out {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
+
 .element {
   animation-name: fade-in-out;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-
 
 .banner a {
   text-decoration: none;
@@ -88,6 +100,7 @@ a.nav-link {
   line-height: 150%;
   color: #ffffff;
 }
+
 .banner #hero {
   border: 1px solid #015a06;
   border-radius: 50%;
@@ -96,6 +109,7 @@ a.nav-link {
   max-width: 650px;
   margin: auto;
 }
+
 .round_box {
   background-color: #ffffff;
   border-radius: 50%;
@@ -103,6 +117,7 @@ a.nav-link {
   height: 274px;
   width: 274px;
 }
+
 .round_box h3 {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -112,6 +127,7 @@ a.nav-link {
   color: #015a06;
   margin-bottom: 8px;
 }
+
 .round_box p {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -120,6 +136,7 @@ a.nav-link {
   line-height: 160%;
   color: #000000;
 }
+
 /* .round_box.first {
   position: absolute;
   top: 0px;
@@ -141,6 +158,7 @@ a.nav-link {
   padding-bottom: 106px;
   margin-bottom: 140px;
 }
+
 .dmrc .logo {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -149,6 +167,7 @@ a.nav-link {
   line-height: 150%;
   color: #015a06;
 }
+
 .dmrc .content {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -158,23 +177,28 @@ a.nav-link {
   color: #333333;
   text-align: justify;
 }
+
 .dmrc .icon_div {
   background-color: #ffffff;
   border-radius: 12px;
   padding: 15px;
   /* padding: 33px 50px; */
 }
+
 .dmrc .icon_div.first {
   /* height: 198px; */
   width: 250px;
 }
+
 .dmrc .icon_div.last {
   /* height: 198px; */
   width: 292px;
 }
+
 .d-flex.flex-wrap.justify-content-center {
   gap: 20px;
 }
+
 .dmrc .icon {
   background-color: #f6f6f6;
   width: 65px;
@@ -182,6 +206,7 @@ a.nav-link {
   border-radius: 50%;
   margin-bottom: 13px;
 }
+
 .icon_div h3 {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -191,6 +216,7 @@ a.nav-link {
   color: #015a06;
   margin-bottom: 8px;
 }
+
 .icon_div p {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -199,6 +225,7 @@ a.nav-link {
   line-height: 150%;
   color: #000000;
 }
+
 #team1 {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -206,6 +233,7 @@ a.nav-link {
   color: #015a06;
   font-weight: 700;
 }
+
 .dr {
   /* padding-top: 168px; */
   padding-bottom: 140px;
@@ -219,13 +247,16 @@ a.nav-link {
   line-height: 150%;
   color: #015a06;
 }
+
 .dr .company {
   color: #015a06;
   font-weight: 600;
 }
+
 .dr .content {
   color: rgba(67, 67, 67, 0.6);
 }
+
 .dr p {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -235,6 +266,7 @@ a.nav-link {
   color: #373737;
   text-align: justify;
 }
+
 .contact {
   background-image: url("assets/contact.png");
   background-repeat: no-repeat;
@@ -242,11 +274,13 @@ a.nav-link {
   margin-bottom: 158px;
   padding-top: 88px;
 }
+
 .contact_now {
   background-color: #f3f3f3;
   padding: 40px 89px;
   position: relative;
 }
+
 .contact_now:after {
   position: absolute;
   content: "";
@@ -256,6 +290,7 @@ a.nav-link {
   width: 97%;
   height: 18px;
 }
+
 .contact_now h2 {
   font-family: "Roboto Slab", serif;
   font-style: normal;
@@ -267,6 +302,7 @@ a.nav-link {
   margin-bottom: 27px;
   text-align: center;
 }
+
 .contact_now input,
 select,
 textarea {
@@ -275,16 +311,20 @@ textarea {
   padding: 15px 30px;
   border-radius: 5px;
 }
+
 .contact_now input {
   margin-bottom: 20px;
 }
+
 .contact_now select {
   margin-bottom: 20px;
 }
+
 .contact_now textarea {
   height: 96px;
   margin-bottom: 40px;
 }
+
 .contact_now button {
   background-color: #015a06;
   border: none;
@@ -308,9 +348,11 @@ textarea {
   padding-top: 21px;
   padding-bottom: 100px;
 }
+
 .footer img {
   margin-bottom: 12px;
 }
+
 .footer a {
   font-family: "Outfit", sans-serif;
   text-decoration: none;
@@ -321,53 +363,68 @@ textarea {
   color: #000000;
   margin-right: 34px;
 }
+
 @media screen and (max-width: 525px) {
   .navbar-brand {
     width: 70%;
   }
+
   .banner {
     padding-top: 0;
   }
+
   .banner #hero {
     margin-bottom: 30px;
   }
+
   .banner h2 {
     font-size: 28px;
     margin-bottom: 0;
   }
+
   .banner p {
     font-size: 22px;
   }
-  .banner_bg{
+
+  .banner_bg {
     padding-bottom: 65px;
   }
+
   .banner a {
     padding: 10px 35px;
   }
+
   .dmrc {
     padding-top: 25px;
     padding-bottom: 30px;
     margin-bottom: 30px;
   }
+
   .dmrc .content {
     font-size: 18px;
     margin-bottom: 30px;
   }
+
   .d-flex.flex-wrap.justify-content-center {
     gap: 25px;
   }
-  #team1{
+
+  #team1 {
     font-size: 30px;
   }
+
   .dr {
     padding: 50px 20px 0px;
   }
+
   .dr #name {
     font-size: 30px;
   }
+
   .dr p {
     font-size: 18px;
   }
+
   .contact {
     background-image: none;
     padding-top: 30px;
@@ -378,10 +435,12 @@ textarea {
   .contact_now {
     padding: 20px;
   }
-  .contact_now h2{
+
+  .contact_now h2 {
     font-size: 30px;
   }
+
   .footer {
     padding-bottom: 60px;
-}
+  }
 }
