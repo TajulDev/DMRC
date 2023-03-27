@@ -268,9 +268,9 @@ a.nav-link {
 }
 
 .contact {
-  background-image: url("assets/contact.png");
+  /* background-image: url("assets/contact.png");
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left center; */
   margin-bottom: 158px;
   padding-top: 88px;
 }
@@ -310,19 +310,14 @@ textarea {
   border: 0;
   padding: 15px 30px;
   border-radius: 5px;
-}
-
-.contact_now input {
   margin-bottom: 20px;
 }
 
-.contact_now select {
-  margin-bottom: 20px;
-}
+
 
 .contact_now textarea {
   height: 96px;
-  margin-bottom: 40px;
+
 }
 
 .contact_now button {
@@ -338,6 +333,22 @@ textarea {
   line-height: 26px;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+::placeholder {
+  color: #333333;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #333333;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #333333;
 }
 
 .footer {
