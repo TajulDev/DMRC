@@ -65,7 +65,7 @@ a.nav-link {
   margin-bottom: 30px;
 }
 @keyframes fade-in-out {
-  0% { opacity: 0; }
+  0% { opacity: 0.25; }
   50% { opacity: 1; }
   100% { opacity: 0; }
 }
@@ -75,9 +75,7 @@ a.nav-link {
   animation-iteration-count: infinite;
 }
 
-.round_box p {
-  font-size: 16px !important;
-}
+
 .banner a {
   text-decoration: none;
   font-family: "Outfit", sans-serif;
@@ -163,14 +161,15 @@ a.nav-link {
 .dmrc .icon_div {
   background-color: #ffffff;
   border-radius: 12px;
+  padding: 15px;
   /* padding: 33px 50px; */
 }
 .dmrc .icon_div.first {
-  height: 198px;
-  width: 220px;
+  /* height: 198px; */
+  width: 250px;
 }
 .dmrc .icon_div.last {
-  height: 198px;
+  /* height: 198px; */
   width: 292px;
 }
 .d-flex.flex-wrap.justify-content-center {
@@ -183,11 +182,20 @@ a.nav-link {
   border-radius: 50%;
   margin-bottom: 13px;
 }
+.icon_div h3 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  color: #015a06;
+  margin-bottom: 8px;
+}
 .icon_div p {
   font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 150%;
   color: #000000;
 }
