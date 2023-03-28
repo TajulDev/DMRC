@@ -502,7 +502,7 @@ textarea {
   }
 
   .banner p {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .banner_bg {
@@ -511,6 +511,9 @@ textarea {
 
   .banner a {
     padding: 10px 35px;
+  }
+  .wrapper__words span{
+    font-size: 20px;
   }
 
   .dmrc {
