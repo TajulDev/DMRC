@@ -56,7 +56,8 @@ a.nav-link {
   font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
+  /* font-size: 36px; */
+  font-size: 44px;
   line-height: 69px;
   color: #015a06;
   margin-bottom: 14px;
@@ -72,21 +73,7 @@ a.nav-link {
   margin-bottom: 30px;
 }
 
-@keyframes fade-in-out {
-  0% {
-    opacity: 1;
-  }
 
-  100% {
-    opacity: 0;
-  }
-}
-
-.element {
-  animation-name: fade-in-out;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-}
 
 .banner a {
   text-decoration: none;
@@ -109,6 +96,127 @@ a.nav-link {
   max-width: 650px;
   margin: auto;
 }
+
+/* .word-container {
+  display: flex;
+  justify-content: center;
+}
+
+.word {
+  position: absolute;
+  opacity: 0;
+}
+
+.word:nth-child(1) {
+  animation: show-word 6s infinite;
+}
+
+.word:nth-child(2) {
+  animation: show-word 6s 2s infinite;
+}
+
+.word:nth-child(3) {
+  animation: show-word 6s 4s infinite;
+}
+
+@keyframes show-word {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+
+/* mine ============== */
+/* *,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+} */
+
+p.animate__head {
+  font-size: 40px;
+  line-height: unset;
+  margin: 0;
+  color: #015a06;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.wrapper__content {
+  box-sizing: content-box;
+  /* background-color: #ffffff; */
+  height: 70px;
+  /* padding: 50px 30px; */
+  /* border-radius: 8px; */
+  display: flex;
+  /* box-shadow: 0 20px 25px rgba(0,0,0,0.2); */
+}
+
+.wrapper__words {
+  overflow: hidden;
+}
+
+.wrapper__words span {
+  display: block;
+  height: 100%;
+  color: #015a06;
+  font-family: "Roboto Slab", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 10px;
+  /* border: 1px solid orange; */
+  animation: spin_words 10s infinite;
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(-112%);
+  }
+
+  25% {
+    transform: translateY(-100%);
+  }
+
+  35% {
+    transform: translateY(-212%);
+  }
+
+  50% {
+    transform: translateY(-200%);
+  }
+
+  60% {
+    transform: translateY(-312%);
+  }
+
+  75% {
+    transform: translateY(-300%);
+  }
+
+  85% {
+    transform: translateY(-412%);
+  }
+
+  100% {
+    transform: translateY(-400%);
+  }
+}
+
+/* mine ============== */
+
 
 .round_box {
   background-color: #ffffff;
@@ -272,7 +380,7 @@ a.nav-link {
   background-repeat: no-repeat;
   background-position: left center; */
   margin-bottom: 158px;
-  padding-top: 88px;
+  /* padding-top: 88px; */
 }
 
 .contact_now {
