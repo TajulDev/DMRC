@@ -156,12 +156,8 @@ p.animate__head {
 
 .wrapper__content {
   box-sizing: content-box;
-  /* background-color: #ffffff; */
   height: 70px;
-  /* padding: 50px 30px; */
-  /* border-radius: 8px; */
   display: flex;
-  /* box-shadow: 0 20px 25px rgba(0,0,0,0.2); */
 }
 
 .wrapper__words {
@@ -174,7 +170,7 @@ p.animate__head {
   color: #015a06;
   font-family: "Roboto Slab", serif;
   font-size: 40px;
-  font-style: normal;
+  font-style: italic;
   font-weight: 600;
   padding-left: 10px;
   /* border: 1px solid orange; */
@@ -469,6 +465,13 @@ select{
   line-height: 23px;
   color: #000000;
   margin-right: 34px;
+}
+.footer p{
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: 700;
+  color: #015a06;
 }
 
 @media screen and (max-width: 525px) {
